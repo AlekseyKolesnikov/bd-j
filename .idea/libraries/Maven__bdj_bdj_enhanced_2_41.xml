@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: bdj:bdj:enhanced:2.41">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/bdj/bdj/2.41/bdj-2.41-enhanced.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/bdj/bdj/2.41/bdj-2.41-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/bdj/bdj/2.41/bdj-2.41-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

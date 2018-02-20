@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf4d1d5a-3e4b-4f62-a7c9-02b3227f4008" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.cpistrip/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-se/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grin-maven-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-se/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.playlist/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.io.xml/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.animator-sfaa/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-me/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-se/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.logger/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.security/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/profiler/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-me/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdjo/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.binaryconverter/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundsplit/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-tools/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.id/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-me/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumf/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundgen/target/" />
+    <ignored path="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdview/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.movieobject/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.index/target/" />
+    <ignored path="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumfgenerator/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GrinXlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="230" column="72" lean-forward="false" selection-start-line="230" selection-start-column="72" selection-end-line="230" selection-end-column="72" />
+              <folding>
+                <element signature="docComment;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+                <element signature="method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#getInstance#0;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#getAnimationClients#0;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#resetAnimationClients#0;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#getAnimationEngine#0;class#GrinXlet#0" expanded="false" />
+                <element signature="docComment;method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+                <element signature="e#6138#6198#0" expanded="false" />
+                <element signature="docComment;method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#keyTyped#0;class#GrinXlet#0" expanded="false" />
+                <element signature="e#7917#7987#0" expanded="false" />
+                <element signature="method#mouseClicked#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#mousePressed#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#mouseReleased#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#mouseEntered#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#mouseExited#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#mouseDragged#0;class#GrinXlet#0" expanded="false" />
+                <element signature="method#mouseMoved#0;class#GrinXlet#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddrMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/AddrMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+              <folding>
+                <element signature="method#writeObject#0;class#AddrMap#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClipAttr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipAttr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CLPIObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/CLPIObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="224" column="20" lean-forward="false" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClipInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3400">
+              <caret line="312" column="50" lean-forward="false" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="50" />
+              <folding>
+                <element signature="method#ClipInfo#0;class#ClipInfo#0" expanded="false" />
+                <element signature="e#6364#6365#0" expanded="true" />
+                <element signature="e#6395#6396#0" expanded="true" />
+                <element signature="e#6441#6442#0" expanded="true" />
+                <element signature="e#6481#6482#0" expanded="true" />
+                <element signature="e#6513#6514#0" expanded="true" />
+                <element signature="e#6541#6542#0" expanded="true" />
+                <element signature="e#6583#6584#0" expanded="true" />
+                <element signature="e#6617#6618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="130" column="8" lean-forward="true" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamAttr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/StreamAttr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+              <folding>
+                <element signature="e#4150#4151#0" expanded="true" />
+                <element signature="e#4188#4189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>VK_</find>
+      <find>comma</find>
+      <find>ClipAttr inTime</find>
+      <find>ClipInfo tsTypeInfoFormatId</find>
+      <find>getIsAtcDelta</find>
+      <find>isAtcDelta</find>
+      <find>bytes</find>
+      <find>sequence</find>
+      <find>subtitle</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AuthoringTools/pom.xml" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipAttr.java" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/SubtitleAttr.java" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Subtitle.java" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/CLPIObject.java" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipInfo.java" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/StreamAttr.java" />
+        <option value="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Stream.java" />
+        <option value="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 2)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="85" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hdcookbook.grin.grinviewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hdcookbook.grin.grinviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hdcookbook.grin.grinviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hdcookbook.grin.grinviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hdcookbook.grin.grinviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdcookbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthoringTools" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hdcookbook.grin.grinviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hdcookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="grinxlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscCreationTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscCreationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="net.java.bd.tools.clipinf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscCreationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="net.java.bd.tools.clipinf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscCreationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="net.java.bd.tools.clipinf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscCreationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="net.java.bd.tools.clipinf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hdcookbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiscCreationTools" type="462c0819:PsiDirectoryNode" />
+              <item name="net.java.bd.tools.clipinf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clipinf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf4d1d5a-3e4b-4f62-a7c9-02b3227f4008" name="Default" comment="" />
+      <created>1518626395025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518626395025</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25023085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18559557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="220" column="47" lean-forward="false" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getInstance#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#resetAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationEngine#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#6138#6198#0" expanded="false" />
+            <element signature="docComment;method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#7917#7987#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseDragged#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#GrinXlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/AddrMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="method#writeObject#0;class#AddrMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/CLPIObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="224" column="20" lean-forward="false" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="312" column="50" lean-forward="false" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="50" />
+          <folding>
+            <element signature="method#ClipInfo#0;class#ClipInfo#0" expanded="false" />
+            <element signature="e#6364#6365#0" expanded="true" />
+            <element signature="e#6395#6396#0" expanded="true" />
+            <element signature="e#6441#6442#0" expanded="true" />
+            <element signature="e#6481#6482#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6541#6542#0" expanded="true" />
+            <element signature="e#6583#6584#0" expanded="true" />
+            <element signature="e#6617#6618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/StreamAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="158" column="42" lean-forward="true" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="220" column="47" lean-forward="false" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getInstance#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#resetAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationEngine#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#6138#6198#0" expanded="false" />
+            <element signature="docComment;method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#7917#7987#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseDragged#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#GrinXlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/AddrMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="method#writeObject#0;class#AddrMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="20" lean-forward="false" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="160" column="35" lean-forward="false" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/StreamAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="242" column="7" lean-forward="false" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding>
+            <element signature="method#ClipInfo#0;class#ClipInfo#0" expanded="false" />
+            <element signature="e#6364#6365#0" expanded="true" />
+            <element signature="e#6395#6396#0" expanded="true" />
+            <element signature="e#6441#6442#0" expanded="true" />
+            <element signature="e#6481#6482#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6541#6542#0" expanded="true" />
+            <element signature="e#6583#6584#0" expanded="true" />
+            <element signature="e#6617#6618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="220" column="47" lean-forward="false" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+          <folding>
+            <element signature="docComment;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getInstance#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#resetAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationEngine#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#6138#6198#0" expanded="false" />
+            <element signature="docComment;method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#7917#7987#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseDragged#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#GrinXlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/AddrMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="method#writeObject#0;class#AddrMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="20" lean-forward="false" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="160" column="35" lean-forward="false" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/StreamAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="7" lean-forward="false" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="242" column="0" lean-forward="true" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
+          <folding>
+            <element signature="method#ClipInfo#0;class#ClipInfo#0" expanded="false" />
+            <element signature="e#6364#6365#0" expanded="true" />
+            <element signature="e#6395#6396#0" expanded="true" />
+            <element signature="e#6441#6442#0" expanded="true" />
+            <element signature="e#6481#6482#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6541#6542#0" expanded="true" />
+            <element signature="e#6583#6584#0" expanded="true" />
+            <element signature="e#6617#6618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getInstance#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#resetAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationEngine#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#6138#6198#0" expanded="false" />
+            <element signature="docComment;method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#7917#7987#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseDragged#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#GrinXlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" column="7" lean-forward="false" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthoringTools/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="112" column="34" lean-forward="true" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="242" column="7" lean-forward="false" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="160" column="35" lean-forward="false" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/resources/net/java/bd/tools/clipinf/jaxb.index">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/AddrMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="method#writeObject#0;class#AddrMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="148" column="20" lean-forward="false" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/CLPIObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="224" column="20" lean-forward="false" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/ClipInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="312" column="50" lean-forward="false" selection-start-line="312" selection-start-column="12" selection-end-line="312" selection-end-column="50" />
+          <folding>
+            <element signature="method#ClipInfo#0;class#ClipInfo#0" expanded="false" />
+            <element signature="e#6364#6365#0" expanded="true" />
+            <element signature="e#6395#6396#0" expanded="true" />
+            <element signature="e#6441#6442#0" expanded="true" />
+            <element signature="e#6481#6482#0" expanded="true" />
+            <element signature="e#6513#6514#0" expanded="true" />
+            <element signature="e#6541#6542#0" expanded="true" />
+            <element signature="e#6583#6584#0" expanded="true" />
+            <element signature="e#6617#6618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/StreamAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding>
+            <element signature="e#4150#4151#0" expanded="true" />
+            <element signature="e#4188#4189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/src/main/java/net/java/bd/tools/clipinf/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="130" column="8" lean-forward="true" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/src/main/java/com/hdcookbook/grinxlet/GrinXlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="230" column="72" lean-forward="false" selection-start-line="230" selection-start-column="72" selection-end-line="230" selection-end-column="72" />
+          <folding>
+            <element signature="docComment;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="method#GrinXlet#1;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getInstance#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#resetAnimationClients#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#getAnimationEngine#0;class#GrinXlet#0" expanded="false" />
+            <element signature="docComment;method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#pushKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#6138#6198#0" expanded="false" />
+            <element signature="docComment;method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#popKeyInterest#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#GrinXlet#0" expanded="false" />
+            <element signature="e#7917#7987#0" expanded="false" />
+            <element signature="method#mouseClicked#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mousePressed#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseReleased#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseEntered#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseExited#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseDragged#0;class#GrinXlet#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#GrinXlet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: bdj:bdj:enhanced:2.41</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

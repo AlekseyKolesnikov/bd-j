@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-me/com.hdcookbook.grin-me.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-me/com.hdcookbook.grin-me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-se/com.hdcookbook.grin-se.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-se/com.hdcookbook.grin-se.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.animator-sfaa/com.hdcookbook.grin.animator-sfaa.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.animator-sfaa/com.hdcookbook.grin.animator-sfaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.binaryconverter/com.hdcookbook.grin.binaryconverter.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.binaryconverter/com.hdcookbook.grin.binaryconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-me/com.hdcookbook.grin.fontstrip-me.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-me/com.hdcookbook.grin.fontstrip-me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-se/com.hdcookbook.grin.fontstrip-se.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-se/com.hdcookbook.grin.fontstrip-se.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-tools/com.hdcookbook.grin.fontstrip-tools.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-tools/com.hdcookbook.grin.fontstrip-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grin-maven-plugin/com.hdcookbook.grin.grin-maven-plugin.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grin-maven-plugin/com.hdcookbook.grin.grin-maven-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/com.hdcookbook.grin.grinviewer.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer/com.hdcookbook.grin.grinviewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.io.xml/com.hdcookbook.grin.io.xml.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.io.xml/com.hdcookbook.grin.io.xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-me/com.hdcookbook.grin.media-me.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-me/com.hdcookbook.grin.media-me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-se/com.hdcookbook.grin.media-se.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-se/com.hdcookbook.grin.media-se.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/fontstrip.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/fontstrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/grin.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/grin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/hdcookbook.iml" filepath="$PROJECT_DIR$/AuthoringTools/hdcookbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/media.iml" filepath="$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdjo/net.java.bd.tools.bdjo.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdjo/net.java.bd.tools.bdjo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdview/net.java.bd.tools.bdview.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdview/net.java.bd.tools.bdview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumf/net.java.bd.tools.bumf.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumf/net.java.bd.tools.bumf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumfgenerator/net.java.bd.tools.bumfgenerator.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumfgenerator/net.java.bd.tools.bumfgenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/net.java.bd.tools.clipinf.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf/net.java.bd.tools.clipinf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.cpistrip/net.java.bd.tools.cpistrip.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.cpistrip/net.java.bd.tools.cpistrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.id/net.java.bd.tools.id.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.id/net.java.bd.tools.id.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.index/net.java.bd.tools.index.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.index/net.java.bd.tools.index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.logger/net.java.bd.tools.logger.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.logger/net.java.bd.tools.logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.movieobject/net.java.bd.tools.movieobject.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.movieobject/net.java.bd.tools.movieobject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.playlist/net.java.bd.tools.playlist.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.playlist/net.java.bd.tools.playlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.security/net.java.bd.tools.security.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.security/net.java.bd.tools.security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundgen/net.java.bd.tools.soundgen.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundgen/net.java.bd.tools.soundgen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundsplit/net.java.bd.tools.soundsplit.iml" filepath="$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundsplit/net.java.bd.tools.soundsplit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuthoringTools/profiler/profiler.iml" filepath="$PROJECT_DIR$/AuthoringTools/profiler/profiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscCreationTools/tools.iml" filepath="$PROJECT_DIR$/DiscCreationTools/tools.iml" />
+    </modules>
+  </component>
+</project>

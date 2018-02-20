@@ -69,7 +69,7 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlRootElement
 @XmlType(propOrder = {"typeIndicator", "versionNumber", "clipInfo", "clipAttr",
-    "subtitleAttr", "addrMap"})
+    "streamAttr", "addrMap"})
 public class CLPIObject {
 
     public static final String TYPE = "HDMV";
@@ -77,7 +77,7 @@ public class CLPIObject {
     private String versionNumber; // 0200
     private ClipInfo clipInfo = new ClipInfo();
     private ClipAttr clipAttr = new ClipAttr();
-    private SubtitleAttr subtitleAttr = new SubtitleAttr();
+    private StreamAttr streamAttr = new StreamAttr();
     private AddrMap addrMap = new AddrMap();
 
     public CLPIObject() {
@@ -118,13 +118,13 @@ public class CLPIObject {
         this.clipAttr = clipAttr;
     }
 
-    @XmlElement(name = "SubtitleAttr")
-    public SubtitleAttr getSubtitleAttr() {
-        return subtitleAttr;
+    @XmlElement(name = "StreamAttr")
+    public StreamAttr getStreamAttr() {
+        return streamAttr;
     }
 
-    public void setSubtitleAttr(SubtitleAttr subtitleAttr) {
-        this.subtitleAttr = subtitleAttr;
+    public void setStreamAttr(StreamAttr streamAttr) {
+        this.streamAttr = streamAttr;
     }
 
     @XmlElement(name = "AddrMap")
@@ -172,7 +172,7 @@ public class CLPIObject {
         clipAttr.readObject(din);
 
         // ClipMark
-        subtitleAttr.readObject(din);
+        streamAttr.readObject(din);
 
         // AddrMap
         addrMap.readObject(din);
@@ -199,14 +199,14 @@ public class CLPIObject {
 
     public void writeObject(DataOutputStream out) throws IOException {
 
-        // Write out ClipInfo, ClipAttr, SubtitleAttr and AddrMap to
+        // Write out ClipInfo, ClipAttr, StreamAttr and AddrMap to
         // a byte array first, to calculate data size.
         ByteArrayOutputStream baos0 = new ByteArrayOutputStream();
         DataOutputStream clipInfoStream = new DataOutputStream(baos0);
         ByteArrayOutputStream baos1 = new ByteArrayOutputStream();
         DataOutputStream clipAttrStream = new DataOutputStream(baos1);
         ByteArrayOutputStream baos2 = new ByteArrayOutputStream();
-        DataOutputStream subtitleAttrStream = new DataOutputStream(baos2);
+        DataOutputStream streamAttrStream = new DataOutputStream(baos2);
         ByteArrayOutputStream baos3 = new ByteArrayOutputStream();
         DataOutputStream addrMapStream = new DataOutputStream(baos3);
 
@@ -218,9 +218,9 @@ public class CLPIObject {
         clipAttrStream.flush();
         clipAttrStream.close();
 
-        subtitleAttr.writeObject(subtitleAttrStream);
-        subtitleAttrStream.flush();
-        subtitleAttrStream.close();
+        streamAttr.writeObject(streamAttrStream);
+        streamAttrStream.flush();
+        streamAttrStream.close();
 
         addrMap.writeObject(addrMapStream);
         addrMapStream.flush();
@@ -245,7 +245,7 @@ public class CLPIObject {
 
         out.write(baos0.toByteArray()); // clipInfo
         out.write(baos1.toByteArray()); // clipAttr
-        out.write(baos2.toByteArray()); // subtitleAttr
+        out.write(baos2.toByteArray()); // streamAttr
         out.write(baos3.toByteArray()); // addrMap
 
         for (int i = 0; i < 4; i++) {

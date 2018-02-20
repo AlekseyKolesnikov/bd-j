@@ -53,11 +53,9 @@
  */
 package net.java.bd.tools.clipinf;
 
-import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
@@ -65,103 +63,100 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  *
  * @author ggeorg
  */
-@XmlType(propOrder = {"const0x0001", "const0x0100", "subtitles"})
-public class SubtitleAttr {
+@XmlType(propOrder = {"streamPID", "const0x15", "attr", "unknownvalue1",
+    "name"})
+public class Stream {
 
-    private Short const0x0001;
-    private Short const0x0100;
-    private Subtitle[] subtitles;
+    private short streamPID;
+    private Byte const0x15;
+    private Byte attr;
+    private int unknownvalue1;
+    //private String name;
+    private byte[] name = new byte[12];
 
-    public SubtitleAttr() {
+    public Stream() {
         // Nothing to do here!
     }
 
-    @XmlJavaTypeAdapter(HexStringShortAdapter.class)
-    public Short getConst0x0001() {
-        return const0x0001;
+    public short getStreamPID() {
+        return streamPID;
     }
 
-    public void setConst0x0001(Short const0x0001) {
-        this.const0x0001 = const0x0001;
+    public void setStreamPID(short streamPID) {
+        this.streamPID = streamPID;
     }
 
-    @XmlJavaTypeAdapter(HexStringShortAdapter.class)
-    public Short getConst0x0100() {
-        return const0x0100;
+    @XmlJavaTypeAdapter(HexStringByteAdapter.class)
+    public Byte getConst0x15() {
+        return const0x15;
     }
 
-    public void setConst0x0100(Short const0x0100) {
-        this.const0x0100 = const0x0100;
+    public void setConst0x15(Byte const0x15) {
+        this.const0x15 = const0x15;
     }
 
-    @XmlElement(name = "Subtitle")
-    public Subtitle[] getSubtitles() {
-        return subtitles;
+    @XmlJavaTypeAdapter(HexStringByteAdapter.class)
+    public Byte getAttr() {
+        return attr;
     }
 
-    public void setSubtitles(Subtitle[] subTitles) {
-        this.subtitles = subTitles;
+    public void setAttr(Byte attr) {
+        this.attr = attr;
+    }
+
+    public int getUnknownvalue1() {
+        return unknownvalue1;
+    }
+
+    public void setUnknownvalue1(int unknownvalue1) {
+        this.unknownvalue1 = unknownvalue1;
+    }
+
+    public byte[] getName() {
+        return name;
+    }
+
+    public void setName(byte[] name) {
+        this.name = name;
     }
 
     public void readObject(DataInputStream din) throws IOException {
-        // 32 bit length
-        // 16 bit constvalue1
+        // 16 bit stream PID
+        // 8 bit constvalue (0x15)
+        // 8 bit attr
+        // 32 bit unknownvalue1
+        // 8*12 bit stream name - may be empty 0x00..
         // 32 bit reserved for future use (?)
-        // 16 bit constvalue2
-        // 8 bit number of dubtitles
-        // 16 bit reserved for future use (?)
 
-        int length = din.readInt();
-        System.out.println("SubtitleAttr length=" + length);
+        streamPID = din.readShort();
+        System.out.println("Stream streamPID=" + streamPID);
 
-        const0x0001 = din.readShort();
-        System.out.println("SubtitleAttr const0x0001=" + const0x0001);
+        const0x15 = din.readByte();
+        System.out.println("Stream const0x15=" + const0x15);
+
+        attr = din.readByte();
+        System.out.println("Stream attr=" + attr);
+
+        unknownvalue1 = din.readInt();
+        System.out.println("Stream unknown1=" + unknownvalue1);
+
+        din.read(name, 0, 12);
+        //name = StringIOHelper.readISO646String(din, 12);
+        //System.out.println("Stream name=" + name);
 
         din.skipBytes(4);
-
-        const0x0100 = din.readShort();
-        System.out.println("SubtitleAttr const0x0100=" + const0x0100);
-
-        byte numOfSubtitles = din.readByte();
-        System.out.println("SubtitleAttr number of subtitles=" + numOfSubtitles);
-
-        din.skipBytes(1);
-
-        subtitles = new Subtitle[numOfSubtitles];
-
-        for (int i = 0; i < numOfSubtitles; i++) {
-            subtitles[i] = new Subtitle();
-            subtitles[i].readObject(din);
-        }
     }
 
     public void writeObject(DataOutputStream out) throws IOException {
-
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        DataOutputStream substream = new DataOutputStream(baos);
-
-        int numOfSubtitles = getSubtitles() == null ? 0 : getSubtitles().length;
-
-        substream.writeShort(getConst0x0001());
+        out.writeShort(getStreamPID());
+        out.write(getConst0x15());
+        out.write(getAttr());
+        out.writeInt(this.getUnknownvalue1());
+        //out.write(StringIOHelper.getISO646Bytes(getName()));
+        out.write(name, 0, 12);
 
         for (int i = 0; i < 4; i++) {
-            substream.write(0);    // 8 bit zero
+            out.write(0);    // 8 bit zero
         }
-
-        substream.writeShort(getConst0x0100());
-        substream.write(numOfSubtitles);
-
-        substream.write(0); // 8 bit zero
-
-        for (int i = 0; i < numOfSubtitles; i++) {
-            subtitles[i].writeObject(substream);
-        }
-
-        substream.flush();
-        substream.close();
-
-        byte[] data = baos.toByteArray();
-        out.writeInt(data.length);
-        out.write(data);
     }
 }

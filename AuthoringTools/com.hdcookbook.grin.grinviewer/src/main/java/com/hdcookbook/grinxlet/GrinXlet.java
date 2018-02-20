@@ -215,6 +215,22 @@ public class GrinXlet implements KeyListener, MouseListener, MouseMotionListener
             code = code - KeyEvent.VK_NUMPAD0 + RCKeyEvent.KEY_0.getKeyCode();
         } else if (code == KeyEvent.VK_F5) {
             code = RCKeyEvent.KEY_POPUP_MENU.getKeyCode();
+        } else if (code == KeyEvent.VK_P) {
+            code = RCKeyEvent.KEY_PLAY.getKeyCode();
+        } else if (code == KeyEvent.VK_U) {
+            code = RCKeyEvent.KEY_PAUSE.getKeyCode();
+        } else if (code == KeyEvent.VK_F) {
+            code = RCKeyEvent.KEY_FAST_FWD.getKeyCode();
+        } else if (code == KeyEvent.VK_R) {
+            code = RCKeyEvent.KEY_REWIND.getKeyCode();
+        } else if (code == KeyEvent.VK_PERIOD) {
+            code = RCKeyEvent.KEY_TRACK_NEXT.getKeyCode();
+        } else if (code == KeyEvent.VK_COMMA) {
+            code = RCKeyEvent.KEY_TRACK_PREV.getKeyCode();
+        } else if (code == KeyEvent.VK_I) {
+            code = RCKeyEvent.KEY_INFO.getKeyCode(); // not used in the real life
+        } else if (code == KeyEvent.VK_END) {
+            code = RCKeyEvent.KEY_PG_TEXTST_ENABLE_DISABLE.getKeyCode(); // hack - used for EndActions in BDS
         }
 
         synchronized(this) {

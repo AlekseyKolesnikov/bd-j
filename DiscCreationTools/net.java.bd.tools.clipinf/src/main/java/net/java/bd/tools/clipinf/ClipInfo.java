@@ -63,8 +63,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  *
  * @author ggeorg
  */
-@XmlType(propOrder = {"clipStreamType", "applicationType", "isAtcDelta",
-    "tsRecordingRate", "numSourcePackets", "const0x00001e80", "tsTypeInfoFormatId"})
+@XmlType(propOrder = {"clipStreamType", "applicationType", "isAtcDelta", "tsRecordingRate", "numSourcePackets",
+        "tsTypeLen", "tsTypeValidity", "tsTypeInfoFormatId", "tsTypeInfoNetwork", "tsTypeInfoStream",
+        "atcDeltaNum", "atcDelta", "fontsNum", "fonts"})
 public class ClipInfo {
 
     private byte clipStreamType;
@@ -72,8 +73,15 @@ public class ClipInfo {
     private int isAtcDelta; // TODO convert to boolean
     private int tsRecordingRate; // in 10KHz
     private int numSourcePackets;
-    private Integer const0x00001e80;
+    private short tsTypeLen;
+    private byte tsTypeValidity;
     private String tsTypeInfoFormatId;
+    private byte[] tsTypeInfoNetwork = new byte[9];
+    private byte[] tsTypeInfoStream = new byte[16];
+    private byte atcDeltaNum;
+    private byte[] atcDelta = null;
+    private byte fontsNum;
+    private byte[] fonts = null;
 
     public ClipInfo() {
         // Nothing to do here!
@@ -119,13 +127,36 @@ public class ClipInfo {
         this.numSourcePackets = numSourcePackets;
     }
 
-    @XmlJavaTypeAdapter(HexStringIntegerAdapter.class)
-    public Integer getConst0x00001e80() {
-        return const0x00001e80;
+    public short getTsTypeLen() {
+        return tsTypeLen;
     }
 
-    public void setConst0x00001e80(Integer const0x00001e80) {
-        this.const0x00001e80 = const0x00001e80;
+    public void setTsTypeLen(short tsTypeLen) {
+        this.tsTypeLen = tsTypeLen;
+    }
+
+    public byte getTsTypeValidity() {
+        return tsTypeValidity;
+    }
+
+    public void setTsTypeValidity(byte tsTypeValidity) {
+        this.tsTypeValidity = tsTypeValidity;
+    }
+
+    public byte[] getTsTypeInfoNetwork() {
+        return tsTypeInfoNetwork;
+    }
+
+    public void setTsTypeInfoNetwork(byte[] tsTypeInfoNetwork) {
+        this.tsTypeInfoNetwork = tsTypeInfoNetwork;
+    }
+
+    public byte[] getTsTypeInfoStream() {
+        return tsTypeInfoStream;
+    }
+
+    public void setTsTypeInfoStream(byte[] tsTypeInfoStream) {
+        this.tsTypeInfoStream = tsTypeInfoStream;
     }
 
     public String getTsTypeInfoFormatId() {
@@ -134,6 +165,38 @@ public class ClipInfo {
 
     public void setTsTypeInfoFormatId(String tsTypeInfoFormatId) {
         this.tsTypeInfoFormatId = tsTypeInfoFormatId;
+    }
+
+    public byte getAtcDeltaNum() {
+        return atcDeltaNum;
+    }
+
+    public void setAtcDeltaNum(byte AtcDeltaNum) {
+        this.atcDeltaNum = AtcDeltaNum;
+    }
+
+    public byte[] getAtcDelta() {
+        return atcDelta;
+    }
+
+    public void setAtcDelta(byte[] AtcDelta) {
+        this.atcDelta = AtcDelta;
+    }
+
+    public byte getFontsNum() {
+        return fontsNum;
+    }
+
+    public void setFontsNum(byte fontsNum) {
+        this.fontsNum = fontsNum;
+    }
+
+    public byte[] getFonts() {
+        return fonts;
+    }
+
+    public void setFonts(byte[] fonts) {
+        this.fonts = fonts;
     }
 
     public void readObject(DataInputStream din) throws IOException {
@@ -176,24 +239,42 @@ public class ClipInfo {
         numSourcePackets = din.readInt();
         System.out.println("ClipInfo numSourcePackets=" + numSourcePackets);
 
-        din.skipBytes(127);
+        din.skipBytes(128); // reserved
 
         // ts type info block
-        const0x00001e80 = din.readInt();
-        System.out.println("ClipInfo const0x00001e80=" + const0x00001e80);
-
+        tsTypeLen = din.readShort();
+        tsTypeValidity = din.readByte();
         tsTypeInfoFormatId = StringIOHelper.readISO646String(din, 4);
         System.out.println("ClipInfo tsTypeInfoFormatId=" + tsTypeInfoFormatId);
+        din.read(tsTypeInfoNetwork, 0, 9);
+        din.read(tsTypeInfoStream, 0, 16);
 
-        //if (isAtcDelta == 1) {
-            //throw new RuntimeException("TODO: handle isAtcDelta");
-        //}
+        // TODO: parse AtcDelta
+        if (isAtcDelta == 1){
+            din.skipBytes(1);
+            atcDeltaNum = din.readByte();
+            int atcDeltaLen = (int)atcDeltaNum * 14;
+            atcDelta = new byte[atcDeltaLen];
+            din.read(atcDelta, 0, atcDeltaLen);
+        }
 
-        din.skipBytes(25);
+        // TODO: parse Fonts
+        if (applicationType == 6){
+            din.skipBytes(1);
+            fontsNum = din.readByte();
+            int fontsLen = (int)fontsNum * 6;
+            fonts = new byte[fontsLen];
+            din.read(fonts, 0, fontsLen);
+        }
     }
 
     public void writeObject(DataOutputStream out) throws IOException {
-        out.writeInt(176);  // length (0x000000b0)
+        int len = 176;
+        if (isAtcDelta == 1)
+            len = len + 2 + (int)atcDeltaNum * 14;
+        if (applicationType == 6)
+            len = len + 2 + (int)fontsNum * 14;
+        out.writeInt(len);  // length (0x000000b0)
 
         for (int i = 0; i < 2; i++) {
             out.write(0);    // 8 bit zero
@@ -202,20 +283,34 @@ public class ClipInfo {
         out.write(getClipStreamType());
         out.write(getApplicationType());
 
-        out.write(getIsAtcDelta() & 0x01);
+        out.writeInt(getIsAtcDelta() & 0x01);
 
         out.writeInt(getTsRecordingRate());
         out.writeInt(getNumSourcePackets());
 
-        for (int i = 0; i < 127; i++) {
-            out.write(0);    // 8 bit zero
+        for (int i = 0; i < 128; i++) { // reserved
+            out.write(0);
         }
 
-        out.writeInt(this.getConst0x00001e80());
+        // ts type info block
+        out.writeShort(tsTypeLen);
+        out.writeByte(tsTypeValidity);
         out.write(StringIOHelper.getISO646Bytes(this.getTsTypeInfoFormatId()));
+        out.write(tsTypeInfoNetwork, 0, 9);
+        out.write(tsTypeInfoStream, 0, 16);
 
-        for (int i = 0; i < 25; i++) {
+        // TODO: parse AtcDelta
+        if (isAtcDelta == 1){
             out.write(0);    // 8 bit zero
+            out.write(atcDeltaNum);  //out.writeByte(atcDeltaNum);
+            out.write(atcDelta, 0, (int)atcDeltaNum * 14);
+        }
+
+        // TODO: parse Fonts
+        if (applicationType == 6){
+            out.write(0);    // 8 bit zero
+            out.write(fontsNum);  //out.writeByte(atcDeltaNum);
+            out.write(fonts, 0, (int)fontsNum * 6);
         }
 
         System.out.println("ClipInfo: " + 176 + " ?=" + (out.size() - 4));

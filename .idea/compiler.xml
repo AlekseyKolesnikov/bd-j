@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.hdcookbook.grin-me" />
+        <module name="com.hdcookbook.grin-se" />
+        <module name="com.hdcookbook.grin.animator-sfaa" />
+        <module name="com.hdcookbook.grin.binaryconverter" />
+        <module name="com.hdcookbook.grin.fontstrip-me" />
+        <module name="com.hdcookbook.grin.fontstrip-se" />
+        <module name="com.hdcookbook.grin.fontstrip-tools" />
+        <module name="com.hdcookbook.grin.grin-maven-plugin" />
+        <module name="com.hdcookbook.grin.grinviewer" />
+        <module name="com.hdcookbook.grin.io.xml" />
+        <module name="com.hdcookbook.grin.media-me" />
+        <module name="com.hdcookbook.grin.media-se" />
+        <module name="net.java.bd.tools.bdjo" />
+        <module name="net.java.bd.tools.bdview" />
+        <module name="net.java.bd.tools.bumf" />
+        <module name="net.java.bd.tools.bumfgenerator" />
+        <module name="net.java.bd.tools.clipinf" />
+        <module name="net.java.bd.tools.cpistrip" />
+        <module name="net.java.bd.tools.id" />
+        <module name="net.java.bd.tools.index" />
+        <module name="net.java.bd.tools.logger" />
+        <module name="net.java.bd.tools.movieobject" />
+        <module name="net.java.bd.tools.playlist" />
+        <module name="net.java.bd.tools.security" />
+        <module name="net.java.bd.tools.soundgen" />
+        <module name="net.java.bd.tools.soundsplit" />
+        <module name="profiler" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.hdcookbook.grin-me" target="1.3" />
+      <module name="com.hdcookbook.grin-se" target="1.5" />
+      <module name="com.hdcookbook.grin.animator-sfaa" target="1.3" />
+      <module name="com.hdcookbook.grin.binaryconverter" target="1.5" />
+      <module name="com.hdcookbook.grin.fontstrip-me" target="1.3" />
+      <module name="com.hdcookbook.grin.fontstrip-se" target="1.5" />
+      <module name="com.hdcookbook.grin.fontstrip-tools" target="1.5" />
+      <module name="com.hdcookbook.grin.grin-maven-plugin" target="1.5" />
+      <module name="com.hdcookbook.grin.grinviewer" target="1.5" />
+      <module name="com.hdcookbook.grin.io.xml" target="1.5" />
+      <module name="com.hdcookbook.grin.media-me" target="1.3" />
+      <module name="com.hdcookbook.grin.media-se" target="1.5" />
+      <module name="fontstrip" target="1.5" />
+      <module name="grin" target="1.5" />
+      <module name="hdcookbook" target="1.5" />
+      <module name="media" target="1.5" />
+      <module name="net.java.bd.tools.bdjo" target="1.5" />
+      <module name="net.java.bd.tools.bdview" target="1.5" />
+      <module name="net.java.bd.tools.bumf" target="1.5" />
+      <module name="net.java.bd.tools.bumfgenerator" target="1.5" />
+      <module name="net.java.bd.tools.clipinf" target="1.5" />
+      <module name="net.java.bd.tools.cpistrip" target="1.5" />
+      <module name="net.java.bd.tools.id" target="1.5" />
+      <module name="net.java.bd.tools.index" target="1.5" />
+      <module name="net.java.bd.tools.logger" target="1.3" />
+      <module name="net.java.bd.tools.movieobject" target="1.5" />
+      <module name="net.java.bd.tools.playlist" target="1.5" />
+      <module name="net.java.bd.tools.security" target="1.5" />
+      <module name="net.java.bd.tools.soundgen" target="1.5" />
+      <module name="net.java.bd.tools.soundsplit" target="1.5" />
+      <module name="profiler" target="1.5" />
+      <module name="tools" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

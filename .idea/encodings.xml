@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AuthoringTools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.animator-sfaa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.binaryconverter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-me" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-se" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.fontstrip/com.hdcookbook.grin.fontstrip-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grin-maven-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.grinviewer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.io.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-me" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin.media/com.hdcookbook.grin.media-se" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-me" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/com.hdcookbook.grin/com.hdcookbook.grin-se" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AuthoringTools/profiler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdjo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bdview" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.bumfgenerator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.clipinf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.cpistrip" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.id" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.logger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.movieobject" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.playlist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundgen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscCreationTools/net.java.bd.tools.soundsplit" charset="UTF-8" />
+  </component>
+</project>
